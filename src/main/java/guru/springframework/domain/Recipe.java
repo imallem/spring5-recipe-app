@@ -39,7 +39,7 @@ public class Recipe {
 	@Lob
 	private Byte[] image; 
 	
-	@Enumerated(value = EnumType.STRING) //enrigistre la valeur de la chaine plutot que l'index. 
+	@Enumerated(value = EnumType.STRING) //enregistre la valeur de la chaine plutot que l'index. 
 	private Difficulty difficulty;
 	
 	public Difficulty getDifficulty() {
