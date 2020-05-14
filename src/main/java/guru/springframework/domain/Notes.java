@@ -35,8 +35,22 @@ public class Notes {
 	public String getRecipeNotes() {
 		return recipeNotes;
 	}
+	
 	public void setRecipeNotes(String recipeNotes) {
 		this.recipeNotes = recipeNotes;
+	}
+	public Notes() {
+		super();
+	}
+	public Notes(String recipeNotes,Recipe recipe) {
+		super();
+		this.recipe = recipe;
+		this.recipeNotes = recipeNotes;
+	}
+	public Notes(Recipe recipe) {
+		super();
+		this.recipe = recipe;
+
 	}
 	
 	
